@@ -1,3 +1,8 @@
+# Default behavior
 * text=auto
+
+# LF line endings
+*.sh text eol=lf
+
+# CRLF line endings
 *.bat text eol=crlf
-*.sh  text eol=lf
