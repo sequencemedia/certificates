@@ -1,15 +1,14 @@
 {
   "name": "@sequencemedia/certificates",
   "version": "1.0.0",
-  "description": "Root CA and self-signed certificates",
-  "private": true,
+  "description": "Generate root CA and self-signed certificates with OpenSSL",
   "type": "module",
   "author": {
     "name": "Jonathan Perry for Sequence Media Limited",
     "email": "sequencemedia@sequencemedia.net",
     "url": "http://sequencemedia.net"
   },
-  "license": "UNLICENSED",
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/sequencemedia/certificate-authority.git"
