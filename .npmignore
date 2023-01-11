@@ -20,3 +20,10 @@
 
 # Deps
 .depsrc
+
+certificates
+certificates.json
+
+*-certs.*
+!ca-and-certs.*
+!certs.*
