@@ -1,9 +1,9 @@
 @echo off
 
-if defined 1 (
-  set SUBJ=%1
+if "%~1" == "" (
+  set SUBJ=/C=UK/ST=England/L=Greenwich/O=Sequence Media Limited/CN=Sequence Media/emailAddress=sequencemedia@sequencemedia.net
 ) else (
-  set SUBJ="/C=UK/ST=England/L=Greenwich/O=Sequence Media Limited/CN=Sequence Media/emailAddress=sequencemedia@sequencemedia.net"
+  set SUBJ=%~1
 )
 
 call scripts/bat/localhost-csr.bat
