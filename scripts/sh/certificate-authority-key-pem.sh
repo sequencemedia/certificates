@@ -1,11 +1,11 @@
 #!/bin/bash
 
-if [ $# -eq 1 ]
+if [ $# -eq 1 ];
 then
   SUBJ=$1
 fi
 
-if [ -z "$SUBJ" ]
+if [ -z "$SUBJ" ];
 then
   SUBJ="/C=UK/ST=England/L=Greenwich/O=Sequence Media Limited/CN=Sequence Media/emailAddress=sequencemedia@sequencemedia.net"
 fi
