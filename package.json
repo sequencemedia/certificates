@@ -21,7 +21,8 @@
     "lint": "eslint . --ext cjs --ext mjs",
     "lint:fix": "npm run lint -- --fix",
     "ca-and-certs": "DEBUG=@sequencemedia/certificates:* node ca-and-certs.mjs",
-    "certs": "DEBUG=@sequencemedia/certificates:* node certs.mjs"
+    "certs": "DEBUG=@sequencemedia/certificates:* node certs.mjs",
+    "prepare": "husky install"
   },
   "dependencies": {
     "debug": "^4.3.4",
@@ -35,11 +36,13 @@
     "@babel/core": "^7.20.12",
     "@babel/eslint-parser": "^7.19.1",
     "@babel/preset-env": "^7.20.2",
+    "@sequencemedia/hooks": "^1.0.299",
     "core-js": "^3.27.1",
     "eslint": "^8.31.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.1.1"
+    "eslint-plugin-promise": "^6.1.1",
+    "husky": "^8.0.3"
   }
 }
