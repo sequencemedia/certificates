@@ -1,3 +1,5 @@
+#!/bin/node
+
 import debug from 'debug'
 import os from 'node:os'
 import ip from 'ip'
