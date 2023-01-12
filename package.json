@@ -20,8 +20,8 @@
   "scripts": {
     "lint": "eslint . --ext cjs --ext mjs",
     "lint:fix": "npm run lint -- --fix",
-    "ca-and-certs": "DEBUG=@sequencemedia/certificates:* node ca-and-certs.mjs",
-    "certs": "DEBUG=@sequencemedia/certificates:* node certs.mjs",
+    "ca-and-certs": "node ca-and-certs.mjs",
+    "certs": "node certs.mjs",
     "prepare": "husky install"
   },
   "dependencies": {
