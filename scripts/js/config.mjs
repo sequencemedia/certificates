@@ -9,7 +9,9 @@ log('`config` is awake')
 try {
   nconf
     .argv()
-    .file('certificates.json')
+    .file({
+      file: nconf.get('file') || 'certificates.json'
+    })
     .required([
       'country',
       'state',
