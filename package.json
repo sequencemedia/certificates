@@ -11,7 +11,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/sequencemedia/certificate-authority.git"
+    "url": "git+ssh://git@github.com/sequencemedia/certificates.git"
   },
   "homepage": "https://github.com/sequencemedia/certificates#readme",
   "bugs": {
