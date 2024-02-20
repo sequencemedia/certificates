@@ -27,7 +27,7 @@
   "dependencies": {
     "debug": "^4.3.4",
     "fs-extra": "^11.2.0",
-    "ip": "^1.1.9",
+    "ip": "^2.0.1",
     "nconf": "^0.12.1"
   },
   "devDependencies": {
