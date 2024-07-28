@@ -25,7 +25,7 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "debug": "^4.3.5",
+    "debug": "^4.3.6",
     "fs-extra": "^11.2.0",
     "ip": "^2.0.1",
     "nconf": "^0.12.1"
