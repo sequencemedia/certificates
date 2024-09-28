@@ -12,6 +12,9 @@
 # Deps
 .depsrc
 
+# Hooks
+.husky/hooks
+
 certificates
 certificates.json
 
