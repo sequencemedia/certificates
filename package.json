@@ -1,6 +1,6 @@
 {
   "name": "@sequencemedia/certificates",
-  "version": "1.0.624",
+  "version": "1.0.625",
   "description": "Generate root CA and self-signed certificates with OpenSSL",
   "type": "module",
   "author": {
