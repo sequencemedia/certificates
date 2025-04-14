@@ -28,7 +28,7 @@
     "debug": "^4.4.0",
     "fs-extra": "^11.3.0",
     "ip": "^2.0.1",
-    "nconf": "^0.12.1"
+    "nconf": "^0.13.0"
   },
   "devDependencies": {
     "@sequencemedia/eslint-config-standard": "^0.2.48",
