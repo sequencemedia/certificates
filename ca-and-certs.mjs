@@ -73,21 +73,21 @@ async function app () {
 
     return (PLATFORM === 'win32')
       ? await bat({
-        country,
-        state,
-        locality,
-        organisation,
-        commonName,
-        emailAddress
-      })
+          country,
+          state,
+          locality,
+          organisation,
+          commonName,
+          emailAddress
+        })
       : await sh({
-        country,
-        state,
-        locality,
-        organisation,
-        commonName,
-        emailAddress
-      })
+          country,
+          state,
+          locality,
+          organisation,
+          commonName,
+          emailAddress
+        })
   } catch ({
     code = 'N/A',
     message = 'N/A'
