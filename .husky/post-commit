@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 git clone https://github.com/sequencemedia/hooks.git .husky/hooks
 npx cross-env DEBUG=@sequencemedia/hooks* node .husky/hooks/post-commit.mjs
