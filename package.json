@@ -26,14 +26,14 @@
   },
   "dependencies": {
     "debug": "^4.4.3",
-    "fs-extra": "^11.3.3",
+    "fs-extra": "^11.3.4",
     "ip": "^2.0.1",
     "nconf": "^0.13.0"
   },
   "devDependencies": {
     "@sequencemedia/eslint-config-standard": "^0.2.107",
     "eslint": "9.38.0",
-    "globals": "^17.3.0",
+    "globals": "^17.4.0",
     "husky": "^9.1.7"
   }
 }
