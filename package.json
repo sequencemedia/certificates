@@ -22,7 +22,7 @@
     "certs": "node certs.mjs",
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
-    "prepare": "husky"
+    "prepare": "node husky.mjs"
   },
   "dependencies": {
     "debug": "^4.4.3",
